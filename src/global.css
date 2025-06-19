@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --font-ibm-plex-mono: "IBM Plex Mono", monospace;
+  --color-background: #ffffff;
+  --color-text: #000000;
 }
 
+.dark {
+  --color-background: #161F27;
+  --color-text: #ffffff;
+}
 body{
-  font-family: var(--font-ibm-plex-mono);
-  margin: 0;
-  padding: 0;
-  color: #FFFF;
-  background-color: #1D2A34;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 
