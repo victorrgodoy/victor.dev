@@ -68,7 +68,7 @@ function Hero() {
                 </div>
 
             <_motion.img
-                src="src/assets/victor-dev.png"
+                src="public/assets/victor-dev.png"
                 alt="Victor Godoy"
                 className="w-60 rounded-lg"
                 animate={{ y: [0, -20, 0] , x:[0,-20,0]}} 
@@ -85,23 +85,3 @@ function Hero() {
 }
 
 export default Hero
-
-
-//  <div className='transform -translate-y-1/2 z-50 flex flex-col gap-8 mx-10 items-center text-[var(--color-text)]'>
-//                 <a
-//                     href="https://github.com/victorrgodoy"
-//                     target="_blank"
-//                     rel="noopener noreferrer nofollow"
-//                     className="cursor:auto hover:scale-110 text-2xl"
-//                 >
-//                     <BsGithub />
-//                 </a>
-//                 <a
-//                     href="https://www.linkedin.com/in/victorgodoy-/"
-//                     target="_blank"
-//                     rel="noopener noreferrer nofollow"
-//                     className="cursor:auto hover:scale-110 text-2xl"
-//                 >
-//                     <BsLinkedin />
-//                 </a>
-//             </div>
