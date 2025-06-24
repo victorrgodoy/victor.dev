@@ -34,7 +34,7 @@ function Header() {
     ]
 
     return (
-        <div className="fixed z-50 top-0 left-0 right-0 w-full text-[var(--color-text)] bg-[var(--color-background-1)] px-6">
+        <div className="fixed z-50 top-0 left-0 right-0 w-full text-[var(--color-text)] bg-[var(--color-background-1)] md:px-15 px-5">
             <header className="top-0 h-[84px] flex justify-between items-center box-border max-w-[960px] mx-auto w-full ">
                 <h1>
                     <a

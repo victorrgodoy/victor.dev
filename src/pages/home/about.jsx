@@ -1,9 +1,9 @@
 function About() {
     return (
-        <section id="about" className="bg-[var(--color-background-1)] text-[var(--color-text)] min-h-full px-6 flex">
-            <div className="box-border max-w-[960px] mx-auto w-full my-30">
+        <section id="about" className="bg-[var(--color-background-1)] text-[var(--color-text)] min-h-full md:px-15 px-5 flex">
+            <div className="box-border max-w-[960px] mx-auto w-full lg:my-30 my-20">
                 <h2 
-                className="text-3xl underline underline-offset-8 decoration-[var(--color-main)] decoration-wavy mb-6">
+                className="lg:text-3xl text-2xl underline underline-offset-8 decoration-[var(--color-main)] decoration-wavy mb-6">
                     About Me
                 </h2>
                 <p className="mb-6">
@@ -30,7 +30,7 @@ function About() {
                 </ul>
 
                 <h3 className="text-[var(--color-main)] text-xl">Languages</h3>
-                <ul className="mx-2 list-disc list-inside mb-6 marker:text-[var(--color-main)]">
+                <ul className="mx-2 list-disc list-inside marker:text-[var(--color-main)]">
                     <li>Portuguese: Native</li>
                     <li>English: Intermediate</li>
                 </ul>

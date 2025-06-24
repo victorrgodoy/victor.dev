@@ -29,7 +29,7 @@ function HomePage() {
         
     return (
         <div className='bg-[var(--color-background-1)]'>
-            <div className="fixed left-4 top-1/2 transform -translate-y-1/2 z-50 flex flex-col gap-8 mx-10 ">
+            <div className="hidden md:flex md:fixed fixed top-1/2 transform -translate-y-1/2 z-50  flex-col gap-8  left-[clamp(1.5rem,5vw,1rem)]">
             {sections.map((section) => (
                 <a
                     key={section}
