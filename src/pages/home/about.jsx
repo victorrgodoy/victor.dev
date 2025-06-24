@@ -1,8 +1,11 @@
+
+
 function About() {
     return (
         <section id="about" className="bg-[var(--color-background-1)] text-[var(--color-text)] min-h-full px-6 flex">
             <div className="box-border max-w-[960px] mx-auto w-full my-30">
-                <h2 className="text-3xl underline underline-offset-8 decoration-[var(--color-main)] decoration-wavy mb-6">
+                <h2 
+                className="text-3xl underline underline-offset-8 decoration-[var(--color-main)] decoration-wavy mb-6">
                     About Me
                 </h2>
                 <p className="mb-6">

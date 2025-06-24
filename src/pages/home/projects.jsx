@@ -11,7 +11,13 @@ function Projects() {
 
                 <div className="space-y-6">
                     <div>
-                        <div className="w-full h-58 bg-[var(--color-main)] mb-2" />
+                         <div className="w-full h-[240px] bg-gray-600 mb-2 flex items-center justify-center py-6">
+                        <img
+                            src="src/assets/pontolog.png"
+                            alt="Victor Godoy"
+                            className="h-full max-h-full rounded-lg shadow-2xl object-contain"
+                        />
+                        </div>
                         <div className="flex gap-4">
                             <h4 className="font-medium mb-1 text-lg text-[var(--color-main)]">PontoLog</h4>
                             <a href="https://github.com/CodeDontBlow/PontoLog" target="_blank" rel="noopener noreferrer nofollow" className="cursor-auto hover:scale-110 text-2xl">
@@ -54,7 +60,13 @@ function Projects() {
 
                 <div className="space-y-6">
                     <div>
-                        <div className="w-full h-58 bg-[var(--color-main)] mb-2" />
+                      <div className="w-full h-[240px] bg-gray-600 mb-2 flex items-center justify-center py-6">
+                        <img
+                            src="src/assets/chatbotsql.png"
+                            alt="Victor Godoy"
+                            className="h-full max-h-full rounded-lg shadow-2xl object-contain"
+                        />
+                        </div>
                         <div className="flex gap-4">
                             <h4 className="font-medium mb-1 text-lg text-[var(--color-main)]">ChatBot SQL</h4>
                             <a href="https://github.com/CodeDontBlow/PontoLog" target="_blank" rel="noopener noreferrer nofollow" className="cursor-auto hover:scale-110 text-2xl">

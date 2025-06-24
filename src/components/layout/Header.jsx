@@ -1,5 +1,6 @@
 import { BsList, BsSun, BsMoon } from 'react-icons/bs'
 import { useState, useEffect } from 'react'
+import { motion as _motion} from 'framer-motion'
 
 function Header() {
     const [isDark, setIsDark] = useState(() => {
@@ -29,7 +30,7 @@ function Header() {
 
     const links = [
         { path: '#about', name: 'About me' },
-        { path: '#project', name: 'Projects' },
+        { path: '#projects', name: 'Projects' },
     ]
 
     return (
@@ -75,7 +76,12 @@ function Header() {
                 </nav>
             </header>
 
-            <div className="border-t border-[var(--color-main)] w-full max-w-[960px] mx-auto" />
+          <_motion.div 
+                initial={{ scaleX: 0 }}
+                animate={{ scaleX: 1 }}
+                transition={{ duration: 0.4 }}
+                className="origin-left border-t border-[var(--color-main)] w-full max-w-[960px] mx-auto"
+        />
 
             {isMenuOpen && (
                 <div className="sm:hidden bg-[var(--color-background-1)] text-[var(--color-text)] py-5 flex flex-col items-center gap-y-4 text-center">
