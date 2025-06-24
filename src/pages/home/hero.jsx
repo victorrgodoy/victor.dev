@@ -4,16 +4,16 @@ import { BsGithub, BsLinkedin } from 'react-icons/bs'
 function Hero() {
     return (
         <section id="hero" className=" bg-[var(--color-background-2)] text-[var(--color-text)] min-h-full flex md:px-15 px-5">
-            <div className="box-border max-w-[960px] mx-auto w-full grid grid-cols-1 lg:grid-cols-3 gap-x-10 gap-y-10 lg:my-60 mt-40 mb-10 justify-self-center">
+            <div className="box-border max-w-[960px] mx-auto w-full grid grid-cols-1 lg:grid-cols-3 gap-x-10 gap-y-10 lg:py-40 py-40 pb-20 justify-self-center">
                 <div className="lg:col-span-2 ">
-                    <p className="lg:text-lg  text-sm lg:mb-7 mb-4 font-medium text-[var(--color-main)]">
+                    <p className="lg:text-lg text-sm lg:mb-7 mb-4 font-medium text-[var(--color-main)]">
                         Hello, my name is
                     </p>
                  <_motion.h1 
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: -10 }}
                         transition={{duration: 0.4,}}
-                        className="lg:text-5xl  text-3xl font-semibold lg:mb-5 mb-2"
+                        className="lg:text-6xl md:text-5xl text-4xl font-semibold lg:mb-5 mb-2"
                     >
                     Victor Godoy
                     </_motion.h1>
@@ -21,7 +21,7 @@ function Hero() {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: -10 }}
                         transition={{ duration: 0.4, delay: 0.5 }}
-                        className="lg:text-4xl text-2xl lg:mb-3 font-semibold text-[var(--color-main)]">
+                        className="lg:text-4xl md:text-3xl text-2xl lg:mb-3 font-semibold text-[var(--color-main)]">
                         A Full-stack Developer
                     </_motion.h2>
                     <p className='mb-2'>
