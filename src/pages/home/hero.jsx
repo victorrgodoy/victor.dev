@@ -68,7 +68,7 @@ function Hero() {
                 </div>
 
             <_motion.img
-                src="public/assets/victor-dev.png"
+                src="/assets/victor-dev.png"
                 alt="Victor Godoy"
                 className="w-60 rounded-lg"
                 animate={{ y: [0, -20, 0] , x:[0,-20,0]}} 

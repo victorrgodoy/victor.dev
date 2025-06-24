@@ -1,5 +1,3 @@
-
-
 function About() {
     return (
         <section id="about" className="bg-[var(--color-background-1)] text-[var(--color-text)] min-h-full px-6 flex">
