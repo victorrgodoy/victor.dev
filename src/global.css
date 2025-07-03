@@ -3,21 +3,21 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-    --color-background-1: #ffffff; 
-    --color-background-2: #fcfeff; 
-    --color-text: #000000;
-    --color-main: #7fb8ee;
-    --color-main-2: #dae8f4;
+  --color-background-1: #ffffff;
+  --color-background-2: #fcfeff;
+  --color-text: #000000;
+  --color-main: #7fb8ee;
+  --color-main-2: #dae8f4;
 }
 
 .dark {
-    --color-background-1: #161F27;
-    --color-background-2: #1d2a34;
-    --color-text: #ffffff;
-    --color-main: #7fb8ee;
-    --color-main-2: #253541;
+  --color-background-1: #161f27;
+  --color-background-2: #1d2a34;
+  --color-text: #ffffff;
+  --color-main: #7fb8ee;
+  --color-main-2: #253541;
 }
 body {
-    /* font-family: 'IBM Plex Mono', monospace; */
-    font-family: 'Jost', sans-serif;
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-family: 'Jost', sans-serif;
 }
