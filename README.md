@@ -1,12 +1,28 @@
-# React + Vite
+# VictorGodoy.Dev 
+![preview do portfólio](./public//assets/home-page.png)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-282C34?style=for-the-badge&logo=vite&logoColor=646CFF)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-282C34?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC)
+![JavaScript](https://img.shields.io/badge/JavaScript-282C34?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>
+  Este é o meu portfólio pessoal
+  <a href="https://victordev-rosy.vercel.app/" style="color: #1E90FF; text-decoration: underline;">
+    victor.dev
+  </a>
+  desenvolvido com
+  <a href="https://react.dev/" style="color: #1E90FF; text-decoration: underline;">React</a>,
+  <a href="https://vitejs.dev/" style="color: #1E90FF; text-decoration: underline;">Vite</a> e
+  <a href="https://tailwindcss.com/" style="color: #1E90FF; text-decoration: underline;">Tailwind CSS</a>,
+  onde apresento meus projetos, habilidades e trajetória como desenvolvedor.
+</p>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estrutura
+```bash
+public/
+├── assets/           # Imagens, ícones, etc
+src/
+├── components/       # Componentes reutilizáveis
+├── pages/            # Páginas principais
+├── App.jsx           # App principal
+└── main.jsx          # Entry point
