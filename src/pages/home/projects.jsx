@@ -30,22 +30,19 @@ function Projects() {
           Featured Projects
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+        <div className="flex flex-wrap gap-8">
           {/* Projeto 1 */}
-          <div>
-        <div className="lg:h-60 md:h-56 bg-gray-600 mb-2 flex justify-center items-center gap-3 p-4">
-            <img
-                src="/assets/chatbotsql-img/chatbotsql.png"
-                alt="Victor Godoy"
-                className="h-full rounded-xl"
-            />
-            <img
-                src="/assets/chatbotsql-img/chatbotsql2.png"
-                alt="Victor Godoy"
-                className="h-full rounded-xl"
-            />
-        </div>
-            <div className="flex items-center justify-between gap-4">
+          <div className="flex-1 min-w-[300px]">
+            <div className="relative pt-[56.25%] mb-2 bg-gray-600">
+              <div className="absolute inset-0 flex justify-center p-6">
+                <img
+                  src="/assets/chatbotsql-img/chatbotsql2.png"
+                  alt="Victor Godoy"
+                  className="object-contain h-full shadow-xl/30 rounded-sm duration-300 hover:scale-105"
+                />
+              </div>
+            </div>
+            <div className="flex items-center justify-between">
               <div className="flex gap-4">
                 <h4 className="font-medium mb-1 text-lg text-[var(--color-main)]">
                   ChatBot SQL
@@ -54,7 +51,7 @@ function Projects() {
                   href="https://github.com/victorrgodoy/chat-bot-sql"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  className=" duration-100 cursor-auto hover:scale-110 text-2xl"
+                  className="duration-300 cursor-auto hover:scale-110 text-2xl"
                 >
                   <BsGithub />
                 </a>
@@ -62,7 +59,7 @@ function Projects() {
               <button
                 onClick={() => openModal(0)}
                 aria-label="Zoom Imagem"
-                className="duration-100 hover:scale-110 text-xl transition-transform cursor-pointer"
+                className="duration-300 hover:scale-110 text-2xl transition-transform cursor-pointer"
               >
                 <BsZoomIn />
               </button>
@@ -85,10 +82,13 @@ function Projects() {
           </div>
 
           {/* Projeto 2 */}
-          <div>
-            <div className="w-full h-[240px] bg-gray-600 mb-2 flex items-center justify-center py-6">
-              {/* <img src="/assets/pontolog.png" alt="Victor Godoy" className="h-full max-h-full rounded-lg shadow-2xl object-contain" /> */}
+          <div className="flex-1 min-w-[300px]">
+            <div className="relative pt-[56.25%] mb-2 bg-gray-600">
+              {' '}
+              {/* 16:9 aspect ratio */}
+              <div className="absolute inset-0 flex justify-center p-6"></div>
             </div>
+            <div className="flex items-center justify-between">
             <div className="flex gap-4">
               <h4 className="font-medium mb-1 text-lg text-[var(--color-main)]">
                 PontoLog
@@ -97,11 +97,20 @@ function Projects() {
                 href="https://github.com/CodeDontBlow/PontoLog"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                className="cursor-auto hover:scale-110 text-2xl"
+                className="duration-300 cursor-auto hover:scale-110 text-2xl"
               >
                 <BsGithub />
               </a>
             </div>
+             <button
+                onClick={() => openModal(0)}
+                aria-label="Zoom Imagem"
+                className="duration-300 hover:scale-110 text-2xl transition-transform cursor-pointer"
+              >
+                <BsZoomIn />
+              </button>
+              </div>
+            
             <p className="mb-2">
               A web platform that analyzes foreign trade data, enabling users to
               easily visualize the performance of Brazilian states and regional
@@ -127,21 +136,32 @@ function Projects() {
           </div>
 
           {/* Projeto 3 */}
-          <div>
-            <div className="w-full h-[240px] bg-gray-600 mb-2 flex items-center justify-center py-6" />
+          <div className="flex-1 min-w-[300px]">
+            <div className="relative pt-[56.25%] mb-2 bg-gray-600">
+              <div className="absolute inset-0 flex justify-center p-6"></div>
+            </div>
+            <div className="flex items-center justify-between">
             <div className="flex gap-4">
               <h4 className="font-medium mb-1 text-lg text-[var(--color-main)]">
                 PetLovers
               </h4>
               <a
-                href="https://github.com/CodeDontBlow/PontoLog"
+                href="https://github.com/victorrgodoy/atvv-pl-typescript"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                className="cursor-auto hover:scale-110 text-2xl"
+                className="duration-300 cursor-auto hover:scale-110 text-2xl"
               >
                 <BsGithub />
               </a>
             </div>
+             <button
+                onClick={() => openModal(0)}
+                aria-label="Zoom Imagem"
+                className="duration-300 hover:scale-110 text-2xl transition-transform cursor-pointer"
+              >
+                <BsZoomIn />
+              </button>
+              </div>
             <p className="mb-2">
               A management system for pet shops, handling customers, pets,
               products, and services, with consumption tracking and analytics
@@ -155,6 +175,47 @@ function Projects() {
                 'PostgreSQL',
                 'Bootstrap',
               ].map((tech) => (
+                <p
+                  key={tech}
+                  className="shadow-lg bg-[var(--color-main-2)] rounded-sm px-2 py-1"
+                >
+                  {tech}
+                </p>
+              ))}
+            </div>
+          </div>
+          {/* Projeto 4 */}
+          <div className="flex-1 min-w-[300px]">
+            <div className="relative pt-[56.25%] mb-2 bg-gray-600">
+              {' '}
+              {/* 16:9 aspect ratio */}
+              <div className="absolute inset-0 flex justify-center p-6"></div>
+            </div>
+            <div className="flex items-center justify-between">
+            <div className="flex gap-4">
+              <h4 className="font-medium mb-1 text-lg text-[var(--color-main)]">
+                ...
+              </h4>
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="duration-300 cursor-auto hover:scale-110 text-2xl"
+              >
+                <BsGithub />
+              </a>
+            </div>
+             <button
+                onClick={() => openModal(0)}
+                aria-label="Zoom Imagem"
+                className="duration-300 hover:scale-110 text-2xl transition-transform cursor-pointer"
+              >
+                <BsZoomIn />
+              </button>
+              </div>
+            <p className="mb-2">...</p>
+            <div className="flex gap-3 mt-2 text-sm flex-wrap">
+              {[].map((tech) => (
                 <p
                   key={tech}
                   className="shadow-lg bg-[var(--color-main-2)] rounded-sm px-2 py-1"

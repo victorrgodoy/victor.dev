@@ -11,7 +11,7 @@ function Footer() {
             href="https://github.com/victorrgodoy"
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className="cursor:auto hover:scale-110 text-2xl"
+            className="duration-300 cursor:auto hover:scale-110 text-2xl"
           >
             <BsGithub />
           </a>
@@ -19,7 +19,7 @@ function Footer() {
             href="https://www.linkedin.com/in/victorgodoy-/"
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className="cursor:auto hover:scale-110 text-2xl"
+            className="duration-300 cursor:auto hover:scale-110 text-2xl"
           >
             <BsLinkedin />
           </a>

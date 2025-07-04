@@ -53,7 +53,7 @@ function Hero() {
               href="https://www.linkedin.com/in/victorgodoy-/"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              className="cursor:auto hover:scale-110 text-2xl hover:text-[var(--color-main)] transition duration-300l"
+              className="cursor:auto hover:scale-110 text-2xl hover:text-[var(--color-main)] transition duration-300"
             >
               <BsLinkedin />
             </a>
