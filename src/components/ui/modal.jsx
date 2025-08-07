@@ -27,7 +27,7 @@ function Modal({ images, current, onNext, onPrev, onClose }) {
       <img
         src={images[current]}
         alt={`Imagem ${current + 1}`}
-        className="lg:max-h-[50vh] md:max-h-[35vh] max-h-[25vh] object-contain rounded-lg shadow-lg"
+        className="relative z-20 lg:max-h-[35vh] md:max-h-[35vh] max-h-[25vh] object-contain rounded-lg shadow-lg"
         onClick={(e) => e.stopPropagation()}
       />
 

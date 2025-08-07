@@ -18,6 +18,9 @@ function Projects() {
       '/assets/chatbotsql-img/chatbotsql.png',
       '/assets/chatbotsql-img/chatbotsql2.png',
     ],
+    [
+      '/assets/pontolog-img/pontolog.png',
+    ],
   ];
 
   return (
@@ -40,7 +43,7 @@ function Projects() {
                   alt="Victor Godoy"
                   className="object-contain h-full shadow-xl/30 rounded-sm duration-300 hover:scale-105"
                 />
-              </div>
+              </div>  
             </div>
             <div className="flex items-center justify-between">
               <div className="flex gap-4">
@@ -83,11 +86,11 @@ function Projects() {
 
           {/* Projeto 2 */}
           <div className="flex-1 min-w-[300px]">
-            <div className="relative pt-[56.25%] mb-2 bg-gray-600">
-              {' '}
-              {/* 16:9 aspect ratio */}
-              <div className="absolute inset-0 flex justify-center p-6"></div>
-            </div>
+           <img
+              src="/assets/pontolog-img/pontolog.png"
+              alt="Victor Godoy"
+              className="w-full h-auto object-contain shadow-xl/30 rounded-sm duration-300 hover:scale-102 mb-2"
+            />  
             <div className="flex items-center justify-between">
             <div className="flex gap-4">
               <h4 className="font-medium mb-1 text-lg text-[var(--color-main)]">
@@ -103,7 +106,7 @@ function Projects() {
               </a>
             </div>
              <button
-                onClick={() => openModal(0)}
+                onClick={() => openModal(1)}
                 aria-label="Zoom Imagem"
                 className="duration-300 hover:scale-110 text-2xl transition-transform cursor-pointer"
               >

@@ -26,7 +26,7 @@ function Hero() {
             transition={{ duration: 0.4, delay: 0.5 }}
             className="lg:text-4xl md:text-3xl text-2xl lg:mb-3 font-semibold text-[var(--color-main)]"
           >
-            A Full-stack Developer
+            Developer
           </_motion.h2>
           <p className="mb-2">
             Technology student passionate about building modern web applications
