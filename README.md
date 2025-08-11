@@ -1,5 +1,4 @@
 # VictorGodoy.Dev 
-![preview do portfólio](./public//assets/home-page.png)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-282C34?style=for-the-badge&logo=vite&logoColor=646CFF)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-282C34?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC)
