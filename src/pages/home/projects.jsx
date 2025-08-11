@@ -19,8 +19,18 @@ function Projects() {
       '/assets/chatbotsql-img/chatbotsql2.png',
     ],
     [
-      '/assets/pontolog-img/pontolog.png',
+      '/assets/pontolog-img/pontolog_1.png',
+      '/assets/pontolog-img/pontolog_2.png',
+      '/assets/pontolog-img/pontolog_3.png',
     ],
+    [
+      '/assets/petlover-img/petlover_1.png',
+      '/assets/petlover-img/petlover_2.png',
+      '/assets/petlover-img/petlover_3.png',
+      '/assets/petlover-img/petlover_4.png',
+      '/assets/petlover-img/petlover_5.png',
+      '/assets/petlover-img/petlover_6.png',
+    ]
   ];
 
   return (
@@ -33,7 +43,7 @@ function Projects() {
           Featured Projects
         </h2>
 
-        <div className="flex flex-wrap gap-8">
+        <div className="flex flex-wrap gap-10">
           {/* Projeto 1 */}
           <div className="flex-1 min-w-[300px]">
             <div className="relative pt-[56.25%] mb-2 bg-gray-600">
@@ -87,9 +97,9 @@ function Projects() {
           {/* Projeto 2 */}
           <div className="flex-1 min-w-[300px]">
            <img
-              src="/assets/pontolog-img/pontolog.png"
+              src="/assets/pontolog-img/pontolog_1.png"
               alt="Victor Godoy"
-              className="w-full h-auto object-contain shadow-xl/30 rounded-sm duration-300 hover:scale-102 mb-2"
+              className="w-full h-auto object-contain  rounded-sm duration-300 hover:scale-102 mb-2"
             />  
             <div className="flex items-center justify-between">
             <div className="flex gap-4">
@@ -140,16 +150,19 @@ function Projects() {
 
           {/* Projeto 3 */}
           <div className="flex-1 min-w-[300px]">
-            <div className="relative pt-[56.25%] mb-2 bg-gray-600">
-              <div className="absolute inset-0 flex justify-center p-6"></div>
-            </div>
+             <img
+              src="/assets/petlover-img/petlover_1.png"
+              alt="Victor Godoy"
+              className="w-full h-auto object-contain rounded-sm duration-300 hover:scale-102 mb-2"
+            /> 
+
             <div className="flex items-center justify-between">
             <div className="flex gap-4">
               <h4 className="font-medium mb-1 text-lg text-[var(--color-main)]">
                 PetLovers
               </h4>
               <a
-                href="https://github.com/victorrgodoy/atvv-pl-typescript"
+                href="https://github.com/victorrgodoy/pet-lover"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 className="duration-300 cursor-auto hover:scale-110 text-2xl"
@@ -158,7 +171,7 @@ function Projects() {
               </a>
             </div>
              <button
-                onClick={() => openModal(0)}
+                onClick={() => openModal(2)}
                 aria-label="Zoom Imagem"
                 className="duration-300 hover:scale-110 text-2xl transition-transform cursor-pointer"
               >
@@ -208,13 +221,13 @@ function Projects() {
                 <BsGithub />
               </a>
             </div>
-             <button
+             {/* <button
                 onClick={() => openModal(0)}
                 aria-label="Zoom Imagem"
                 className="duration-300 hover:scale-110 text-2xl transition-transform cursor-pointer"
               >
                 <BsZoomIn />
-              </button>
+              </button> */}
               </div>
             <p className="mb-2">...</p>
             <div className="flex gap-3 mt-2 text-sm flex-wrap">
@@ -235,8 +248,12 @@ function Projects() {
         <Modal
           images={projectImages[projectIndex]}
           current={imageIndex}
-          onNext={() => setImageIndex(1)}
-          onPrev={() => setImageIndex(0)}
+          onNext={() => {
+            setImageIndex((prevIndex) => prevIndex < projectImages[projectIndex].length - 1 ? prevIndex + 1 : 0)
+          }}
+          onPrev={() => {
+            setImageIndex((prevIndex) => prevIndex > 0 ? prevIndex - 1 : projectImages[projectIndex].length - 1)
+          }}
           onClose={() => setModalZoom(false)}
         />
       )}
