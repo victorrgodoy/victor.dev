@@ -31,6 +31,7 @@ function Header() {
   const links = [
     { path: '#about', name: 'About me' },
     { path: '#projects', name: 'Projects' },
+    { path: '#contact', name: 'Contact' },
   ];
 
   return (
@@ -39,7 +40,7 @@ function Header() {
         <h1>
           <a
             href="#"
-            className="text-xl font-medium hover:text-[var(--color-main)]"
+            className="text-xl font-bold hover:text-[var(--color-main)]"
           >
             VictorGodoy
             <span className="text-[var(--color-main)]">.dev</span>
