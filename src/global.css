@@ -1,7 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+RO:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import 'tailwindcss';
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme{
+  --font-jost: 'Jost', sans-serif;
+}
+
+body {
+  @apply font-jost ;
+}
+
+/* variables theme dark */
 :root {
   --color-background-1: #ffffff;
   --color-background-2: #fcfeff;
@@ -16,8 +25,4 @@
   --color-text: #ffffff;
   --color-main: #7fb8ee;
   --color-main-2: #253541;
-}
-body {
-  /* font-family: 'IBM Plex Mono', monospace; */
-  font-family: 'Jost', sans-serif;
 }
