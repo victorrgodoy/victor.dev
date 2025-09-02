@@ -7,15 +7,6 @@ function Hero() {
       id="hero"
       className="relative bg-[var(--color-background-2)] text-[var(--color-text)] min-h-full flex flex-col mt-[84px] py-30 md:px-15 px-5"
     >
-      <span 
-      aria-hidden="true" 
-      className="absolute inset-0 rotate-8 text-[var(--color-text)] font-[1000] text-[12rem] opacity-1 z-0 text-center"
-    >
-      <span className="block leading-none">PROGRAMMER</span>
-      <span className="block leading-none">VICTOR.DEV</span>
-      <span className="block leading-none">DEVELOPER</span>
-      <span className="block leading-none">FULL-STACK</span>
-    </span>
       <div className="box-border max-w-[960px] mx-auto w-full grid grid-cols-1 lg:grid-cols-3 gap-x-10 gap-y-10 z-10">
         <div className="lg:col-span-2 ">
           <p className="lg:text-lg text-sm lg:mb-7 mb-4 font-bold text-[var(--color-main)]">
