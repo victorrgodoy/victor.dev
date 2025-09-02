@@ -35,7 +35,6 @@ function Header() {
   ];
 
   return (
-    // <div className="fixed z-10 top-0 left-0 right-0 w-full text-[var(--color-text)] bg-[var(--color-background-1)] md:px-15 px-5 ">
       <div className="fixed z-10 top-0 left-0 right-0 w-full text-[var(--color-text)] bg-[var(--color-background-1)]/70 backdrop-blur-md md:px-15 px-5">
       <header className="top-0 h-16 py-3 flex justify-between items-center box-border max-w-[960px] mx-auto w-full">
         <h1>
@@ -79,7 +78,7 @@ function Header() {
       </header>
 
       {isMenuOpen && (
-        <div className="sm:hidden bg-[var(--color-background-1)] text-[var(--color-text)] py-5 flex flex-col items-center gap-y-4 text-center">
+        <div className="sm:hidden text-[var(--color-text)] py-5 flex flex-col items-center gap-y-4 text-center">
           <button
             onClick={toggleTheme}
             className={`text-2xl hover:text-[var(--color-main)] cursor-pointer transition-transform duration-500 ${

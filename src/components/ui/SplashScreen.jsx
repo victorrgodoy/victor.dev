@@ -24,7 +24,7 @@ function SplashScreen({children}){
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: -10 }}
                             transition={{ duration: 0.4 }}
-                            className="text-5xl md:text-6xl lg:text-7xl"
+                            className="text-4xl md:text-6xl lg:text-7xl"
                         >
                             VictorGodoy.dev
                         </_motion.h1>
@@ -32,7 +32,7 @@ function SplashScreen({children}){
                             initial={{ scaleX: 0 }}
                             animate={{ scaleX: 1 }}
                             transition={{ duration: 0.5, delay: 0.2 }}
-                            className="h-1 bg-gradient-to-r from-[#7fb8ee] to-white w-[450px] md:w-[600px] lg:w-[750px]"
+                            className="h-1 bg-gradient-to-r from-[#7fb8ee] to-white w-[300px] md:w-[600px] lg:w-[750px]"
                         />
                     </_motion.div>
 

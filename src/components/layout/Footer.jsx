@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="text-[var(--color-text)] bg-[var(--color-background-1)] md:px-15 px-5 text-md">
    
-      <footer className="h-16 flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-4 max-w-[960px] mx-auto w-full">
+      <footer className="h-16 flex sm:flex-row justify-between items-center gap-4 max-w-[960px] mx-auto w-full">
         <div className="flex gap-4 items-center">
           <p>Contact me: </p>
           <a
