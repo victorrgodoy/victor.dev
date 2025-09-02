@@ -8,13 +8,14 @@
 
 body {
   @apply font-jost ;
+  background-color: var(--color-background-1);
 }
 
 /* variables theme dark */
 :root {
   --color-background-1: #ffffff;
   --color-background-2: #fcfeff;
-  --color-text: #000000;
+  --color-text: #505050;
   --color-main: #7fb8ee;
   --color-main-2: #dae8f4;
 }

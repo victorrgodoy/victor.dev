@@ -1,13 +1,14 @@
 import { motion as _motion } from 'framer-motion';
+import Button from '../../components/ui/Button';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 function Hero() {
   return (
     <section
       id="hero"
-      className="relative bg-[var(--color-background-2)] text-[var(--color-text)] min-h-full flex flex-col mt-[84px] py-30 md:px-15 px-5"
+      className="relative bg-[var(--color-background-2)] text-[var(--color-text)] min-h-full flex flex-col mt-16 py-30 md:px-15 px-5"
     >
-      <div className="box-border max-w-[960px] mx-auto w-full grid grid-cols-1 lg:grid-cols-3 gap-x-10 gap-y-10 z-10">
+      <div className="box-border max-w-[960px] mx-auto w-full grid grid-cols-1 lg:grid-cols-3 gap-x-10 gap-y-10">
         <div className="lg:col-span-2 ">
           <p className="lg:text-lg text-sm lg:mb-7 mb-4 font-bold text-[var(--color-main)]">
             Hello, my name is
@@ -41,7 +42,8 @@ function Hero() {
             </ul>
           </div>
           <div className=" transform flex gap-4 text-[var(--color-text)]">
-            <a
+            <Button/>
+            {/* <a
               href="https://github.com/victorrgodoy"
               target="_blank"
               rel="noopener noreferrer nofollow"
@@ -56,7 +58,7 @@ function Hero() {
               className="cursor:auto hover:scale-110 text-2xl hover:text-[var(--color-main)] transition duration-300"
             >
               <BsLinkedin />
-            </a>
+            </a> */}
           </div>
         </div>
 
