@@ -1,18 +1,20 @@
 function About() {
-
   return (
     <section
       id="about"
       className="bg-[var(--color-background-1)] text-[var(--color-text)] min-h-full relative px-7 lg:py-20 py-10"
     >
-        <h2 className="lg:text-4xl md:text-3xl text-2xl text-center underline underline-offset-8 decoration-[var(--color-main)] decoration-wavy mb-10">About Me</h2>
+      <h2 className="lg:text-4xl md:text-3xl text-2xl text-center underline underline-offset-8 decoration-[var(--color-main)] decoration-wavy mb-10">
+        About Me
+      </h2>
 
       <div className="box-border max-w-[960px] mx-auto w-full flex lg:flex-row flex-col md:gap-15 gap-5 items-center md:px-10">
-        <div className="rounded-2xl">
-          <img src="../public/assets/victor.jpeg" 
-               alt="Victor Godoy" 
-               className="rounded-xl lg:w-fit w-70"
-               />
+        <div>
+          <img
+            src="/assets/victor.jpeg"
+            alt="Victor Godoy"
+            className="rounded-xl lg:w-fit w-70"
+          />
         </div>
         <div>
           <p className="mb-6">
