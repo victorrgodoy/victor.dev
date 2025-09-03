@@ -9,15 +9,15 @@ import SectionNavigator from './components/ui/SectionNavigator';
 function App() {
   return (
     <SplashScreen>
-      <Header/>
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<div>About Page</div>} />
         <Route path="/projects" element={<div>Projects Page</div>} />
       </Routes>
       <Footer />
-      <SectionNavigator/>
-      <SocialBar/>
+      <SectionNavigator />
+      <SocialBar />
     </SplashScreen>
   );
 }

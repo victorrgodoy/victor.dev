@@ -2,21 +2,21 @@
 @import 'tailwindcss';
 @custom-variant dark (&:where(.dark, .dark *));
 
-@theme{
+@theme {
   --font-jost: 'Jost', sans-serif;
 }
 
 body {
-  @apply font-jost ;
+  @apply font-jost;
   background-color: var(--color-background-1);
 }
 
 /* variables theme dark */
 :root {
   --color-background-1: #ffffff;
-  --color-background-2: #fcfeff;
+  --color-background-2: #fafafc;
   --color-text: #505050;
-  --color-main: #7fb8ee;
+  --color-main: #467db0;
   --color-main-2: #dae8f4;
 }
 

@@ -7,7 +7,7 @@ function HomePage() {
     <div className="bg-[var(--color-background-1)]">
       <Hero />
       <About />
-      <Projects />      
+      <Projects />
     </div>
   );
 }

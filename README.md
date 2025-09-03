@@ -1,4 +1,5 @@
-# VictorGodoy.Dev 
+# VictorGodoy.Dev
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-282C34?style=for-the-badge&logo=vite&logoColor=646CFF)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-282C34?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC)
@@ -17,6 +18,7 @@
 </p>
 
 ## Estrutura
+
 ```bash
 public/
 ├── assets/           # Imagens, ícones, etc
@@ -25,3 +27,4 @@ src/
 ├── pages/            # Páginas principais
 ├── App.jsx           # App principal
 └── main.jsx          # Entry point
+```

@@ -35,12 +35,12 @@ function Header() {
   ];
 
   return (
-      <div className="fixed z-10 top-0 left-0 right-0 w-full text-[var(--color-text)] bg-[var(--color-background-1)]/70 backdrop-blur-md md:px-15 px-7">
+    <div className="fixed z-10 top-0 left-0 right-0 w-full text-[var(--color-text)] bg-[var(--color-background-2)]/70 backdrop-blur-md md:px-15 px-7 shadow-sm">
       <header className="top-0 h-16 py-3 flex justify-between items-center box-border max-w-[960px] mx-auto w-full">
         <h1>
           <a
             href="#"
-            className="text-xl font-medium hover:text-[var(--color-main)]"
+            className="text-xl font-normal hover:text-[var(--color-main)]"
           >
             VictorGodoy
             <span className="text-[var(--color-main)]">.dev</span>
@@ -48,7 +48,7 @@ function Header() {
         </h1>
 
         <nav className="flex gap-x-7">
-          <ul className="gap-x-7 sm:flex hidden text-lg">
+          <ul className="gap-x-7 md:flex hidden text-lg">
             {links.map((link) => (
               <li key={link.path}>
                 <a
@@ -62,7 +62,7 @@ function Header() {
           </ul>
           <button
             onClick={toggleTheme}
-            className={`text-2xl hover:text-[var(--color-main)] cursor-pointer sm:block hidden transition-transform duration-500 ${
+            className={`text-2xl hover:text-[var(--color-main)] cursor-pointer md:flex hidden transition-transform duration-500 ${
               isDark ? 'rotate-90' : 'rotate-0'
             }`}
           >
@@ -70,7 +70,7 @@ function Header() {
           </button>
           <button
             onClick={toggleMenu}
-            className="text-2xl hover:text-[var(--color-main)] cursor-pointer sm:hidden"
+            className="text-2xl hover:text-[var(--color-main)] cursor-pointer md:hidden"
           >
             <BsList />
           </button>
@@ -78,7 +78,7 @@ function Header() {
       </header>
 
       {isMenuOpen && (
-        <div className="sm:hidden text-[var(--color-text)] py-5 flex flex-col items-center gap-y-4 text-center">
+        <div className="text-[var(--color-text)] py-5 flex flex-col items-center gap-y-4 text-center">
           <button
             onClick={toggleTheme}
             className={`text-2xl hover:text-[var(--color-main)] cursor-pointer transition-transform duration-500 ${
