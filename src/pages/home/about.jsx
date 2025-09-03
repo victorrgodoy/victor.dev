@@ -2,9 +2,9 @@ function About() {
   return (
     <section
       id="about"
-      className="bg-[var(--color-background-1)] text-[var(--color-text)] min-h-full md:px-15 px-5 flex relative"
+      className="bg-[var(--color-background-1)] text-[var(--color-text)] min-h-full flex relative px-7"
     >
-      <div className="box-border max-w-[960px] mx-auto w-full lg:py-30 py-20">
+      <div className="box-border max-w-[960px] mx-auto w-full lg:py-30 py-20 md:px-10">
         <h2 className="lg:text-4xl md:text-3xl text-2xl text-center underline underline-offset-8 decoration-[var(--color-main)] decoration-wavy mb-10">
           About Me
         </h2>

@@ -36,9 +36,9 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="bg-[var(--color-background-2)] text-[var(--color-text)] min-h-full px-5 md:px-15"
+      className="bg-[var(--color-background-2)] text-[var(--color-text)] min-h-full px-7"
     >
-      <div className="box-border max-w-[960px] mx-auto w-full lg:py-30 py-20">
+      <div className="box-border max-w-[960px] mx-auto w-full lg:py-30 py-20 md:px-10">
         <h2 className="text-center lg:text-4xl md:text-3xl text-2xl underline underline-offset-8 decoration-[var(--color-main)] decoration-wavy mb-10">
           Featured Projects
         </h2>
