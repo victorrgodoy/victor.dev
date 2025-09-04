@@ -62,7 +62,7 @@ function Header() {
           </ul>
           <button
             onClick={toggleTheme}
-            className={`text-2xl hover:text-[var(--color-main)] cursor-pointer md:flex hidden transition-transform duration-500 ${
+            className={`md:visible invisible text-2xl hover:text-[var(--color-main)] cursor-pointer transition-transform duration-500 ${
               isDark ? 'rotate-90' : 'rotate-0'
             }`}
           >

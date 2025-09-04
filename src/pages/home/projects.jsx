@@ -86,7 +86,7 @@ function Projects() {
               {['Java', 'Ollama', 'MySQL', 'JavaSwing', 'LLM'].map((tech) => (
                 <p
                   key={tech}
-                  className="shadow-lg bg-[var(--color-main-2)] rounded-sm px-2 py-1"
+                  className="shadow-sm bg-[var(--color-main-2)] rounded-sm px-2 py-1"
                 >
                   {tech}
                 </p>
@@ -140,7 +140,7 @@ function Projects() {
               ].map((tech) => (
                 <p
                   key={tech}
-                  className="shadow-lg bg-[var(--color-main-2)] rounded-sm px-2 py-1"
+                  className="shadow-sm bg-[var(--color-main-2)] rounded-sm px-2 py-1"
                 >
                   {tech}
                 </p>
@@ -193,7 +193,7 @@ function Projects() {
               ].map((tech) => (
                 <p
                   key={tech}
-                  className="shadow-lg bg-[var(--color-main-2)] rounded-sm px-2 py-1"
+                  className="shadow-sm bg-[var(--color-main-2)] rounded-sm px-2 py-1"
                 >
                   {tech}
                 </p>
@@ -234,7 +234,7 @@ function Projects() {
               {[].map((tech) => (
                 <p
                   key={tech}
-                  className="shadow-lg bg-[var(--color-main-2)] rounded-sm px-2 py-1"
+                  className="shadow-sm bg-[var(--color-main-2)] rounded-sm px-2 py-1"
                 >
                   {tech}
                 </p>
